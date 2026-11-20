@@ -95,5 +95,5 @@ const EMAIL_TEMPLATE = {
 मोबाईल : 7756847449
 ई-मेल : pratibha.nalawade831@gmail.com
 
-दिनांक :`
+दिनांक :`${new Date().toLocaleDateString("en-GB", { timeZone: "Asia/Kolkata" })}
 };
