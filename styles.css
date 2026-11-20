@@ -241,3 +241,17 @@ footer {
         flex-direction: column;
     }
 }
+
+/* Reduce Mobile and PC Email Button Size */
+#mobile-button,
+#pc-button {
+    width: 100%;
+    max-width: 380px;
+    padding: 12px 18px;
+    font-size: 15px;
+    min-height: 44px;
+    border-radius: 10px;
+    margin: 8px auto;
+    display: block;
+}
+
