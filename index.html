@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#172554">
+
+    <title>SKN Employee Support Portal</title>
+    <meta name="description" content="श्रीमती काशीबाई नवले मेडिकल कॉलेज व जनरल हॉस्पिटल कर्मचारी निवेदन पोर्टल">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="templates.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+<header class="topbar">
+    <div class="brand">
+        <div class="brand-mark">S</div>
+        <span>SKN Employee Portal</span>
+    </div>
+    <div class="top-note">कर्मचारी न्यायासाठी एकत्र</div>
+</header>
+
+<main class="shell">
+
+    <section class="intro">
+        <p class="eyebrow">EMPLOYEE SUPPORT PORTAL</p>
+        <h1>कर्मचारी <span>न्यायासाठी</span></h1>
+        <p class="intro-copy">
+            प्रलंबित वेतन, PF, ग्रॅच्युइटी आणि प्रशासकीय प्रश्नांबाबत
+            शासनाकडे आपले निवेदन पाठविण्यासाठी ही सोपी सुविधा.
+        </p>
+    </section>
+
+    <section class="panel">
+        <div class="panel-heading">
+            <h2>ई-मेल निवेदन</h2>
+            <span class="status-label">तयार नमुना</span>
+        </div>
+
+        <form id="email-form">
+
+            <label for="to">प्रति (To)</label>
+            <textarea id="to" rows="2" readonly></textarea>
+
+            <label for="cc">प्रत (CC)</label>
+            <textarea id="cc" rows="5" readonly></textarea>
+
+            <label for="subject">ई-मेलचा विषय</label>
+            <textarea id="subject" rows="3" readonly></textarea>
+
+            <label for="body">ई-मेलचा मजकूर</label>
+            <textarea id="body" rows="20" readonly></textarea>
+
+            <div class="actions">
+                <button type="button" id="mobile-button" class="mobile-button">
+                    मोबाईलवरून ई-मेल पाठवा
+                </button>
+
+                <button type="button" id="pc-button" class="pc-button">
+                    संगणकावरून ई-मेल पाठवा
+                </button>
+            </div>
+
+            <p id="status" class="status" aria-live="polite"></p>
+
+            <p class="disclaimer">
+                सूचना: ई-मेल पाठवण्यापूर्वी प्राप्तकर्ते, विषय आणि मजकूर तपासा.
+                आवश्यक असल्यास आपल्या ई-मेल ॲपमध्ये बदल करा आणि स्वतः ई-मेल पाठवा.
+            </p>
+        </form>
+    </section>
+
+    <footer>
+        <span>SKN Employee Support Portal</span>
+        <span>कर्मचारी हितासाठी एकजूट</span>
+    </footer>
+
+</main>
+
+</body>
+</html>
