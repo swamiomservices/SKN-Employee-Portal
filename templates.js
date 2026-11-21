@@ -15,7 +15,8 @@ const EMAIL_TEMPLATE = {
         "ro.pune@epfindia.gov.in",
         "acc.pune@epfindia.gov.in",
         "supdtest.pu-mh@gov.in",
-        "law@muhs.ac.in"
+        "law@muhs.ac.in",
+        "sknmcunion@gmail.com"
     ],
 
     cc: [
